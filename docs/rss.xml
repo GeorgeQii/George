@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Wed, 03 Jul 2024 06:11:51 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>Office获取最新VL版本</title><link>https://GeorgeQii.github.io/post/Office-huo-qu-zui-xin-VL-ban-ben.html</link><description>1.office 软件部署工具：https://www.microsoft.com/en-us/download/details.aspx?id=49117&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Wed, 03 Jul 2024 07:07:34 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>AdGuardHome --Automated install (Linux/Unix/MacOS/FreeBSD/OpenBSD)</title><link>https://GeorgeQii.github.io/post/AdGuardHome%20--Automated%20install%20%28Linux-Unix-MacOS-FreeBSD-OpenBSD%29.html</link><description>[Getting Started](https://github.com/AdguardTeam/AdGuardHome#getting-started)&#13;
+[Automated install (Linux/Unix/MacOS/FreeBSD/OpenBSD)](https://github.com/AdguardTeam/AdGuardHome#automated-install-linux-and-mac)&#13;
+To install with curl run the following command:&#13;
+&#13;
+curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v&#13;
+To install with wget run the following command:&#13;
+&#13;
+wget --no-verbose -O - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v&#13;
+To install with fetch run the following command:&#13;
+&#13;
+fetch -o - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v&#13;
+The script also accepts some options:&#13;
+&#13;
+-c &lt;channel&gt; to use specified channel;&#13;
+-r to reinstall AdGuard Home;&#13;
+-u to uninstall AdGuard Home;&#13;
+-v for verbose output.&#13;
+Note that options -r and -u are mutually exclusive.。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/AdGuardHome%20--Automated%20install%20%28Linux-Unix-MacOS-FreeBSD-OpenBSD%29.html</guid><pubDate>Wed, 03 Jul 2024 07:04:07 +0000</pubDate></item><item><title>Office获取最新VL版本</title><link>https://GeorgeQii.github.io/post/Office-huo-qu-zui-xin-VL-ban-ben.html</link><description>1.office 软件部署工具：https://www.microsoft.com/en-us/download/details.aspx?id=49117&#13;
 2.office 版本自定义工具：https://config.office.com/deploymentsettings&#13;
 &#13;
 下载命令：setup /download config.xml&#13;
@@ -7,4 +24,4 @@
 &#13;
 如果没有激活成功，所须输入的代码&#13;
 1.slmgr /skms kms.03k.org&#13;
-2.slmgr /ato。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/Office-huo-qu-zui-xin-VL-ban-ben.html</guid><pubDate>Wed, 03 Jul 2024 06:11:16 +0000</pubDate></item><item><title>Test</title><link>https://GeorgeQii.github.io/post/Test.html</link><description>test。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/Test.html</guid><pubDate>Wed, 03 Jul 2024 06:03:29 +0000</pubDate></item></channel></rss>
+2.slmgr /ato。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/Office-huo-qu-zui-xin-VL-ban-ben.html</guid><pubDate>Wed, 03 Jul 2024 06:11:16 +0000</pubDate></item></channel></rss>
