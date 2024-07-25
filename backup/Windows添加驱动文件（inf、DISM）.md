@@ -9,12 +9,12 @@
 操作成功完成。（**挂载成功**）
 
 ###2\.加载驱动文件到mount文件夹：
-    dism /image:mount /add-driver:"Display.Driver" /recurse
+```dism /image:mount /add-driver:"Display.Driver" /recurse```
 Installing 48 of 48 - C:\Users\PC\Desktop\wim\Display.Driver\nvxisi.inf: The driver package was successfully installed.
 操作成功完成。（**加载驱动成功**）
 
 ###3\.卸载mount文件到wim文件中：
-    dism /unmount-wim /mountdir:mount /commit
+```dism /unmount-wim /mountdir:mount /commit```
 
 ###4\.复制回u盘，结束
 

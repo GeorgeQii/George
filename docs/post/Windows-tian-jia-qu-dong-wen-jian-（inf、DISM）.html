@@ -82,11 +82,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 [==========================100.0%==========================]<br>
 操作成功完成。（<strong>挂载成功</strong>）</p>
 <p>###2.加载驱动文件到mount文件夹：<br>
-dism /image:mount /add-driver:"Display.Driver" /recurse<br>
+<code class="notranslate">dism /image:mount /add-driver:"Display.Driver" /recurse</code><br>
 Installing 48 of 48 - C:\Users\PC\Desktop\wim\Display.Driver\nvxisi.inf: The driver package was successfully installed.<br>
 操作成功完成。（<strong>加载驱动成功</strong>）</p>
 <p>###3.卸载mount文件到wim文件中：<br>
-dism /unmount-wim /mountdir:mount /commit</p>
+<code class="notranslate">dism /unmount-wim /mountdir:mount /commit</code></p>
 <p>###4.复制回u盘，结束</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
