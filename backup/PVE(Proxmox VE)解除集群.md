@@ -2,7 +2,6 @@
     
     运行以下命令来解除 Proxmox 集群，此操作不会删除任何虚拟机。
     
-    ```bash
     systemctl stop pve-cluster corosync
     pmxcfs -l
     cp -a /etc/corosync /etc/corosync.bak
@@ -26,6 +25,8 @@
 ### 配置文件处理
 
 在移除节点后，其配置文件仍然会保留在`/etc/pve/nodes/hp4`目录中。请恢复您仍然需要的任何配置，并在之后删除该目录。
+
+    rm -rf /etc/pve/nodes/*
 
 ### SSH指纹更新
 

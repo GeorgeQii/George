@@ -80,7 +80,6 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 运行以下命令来解除 Proxmox 集群，此操作不会删除任何虚拟机。
 
-```bash
 systemctl stop pve-cluster corosync
 pmxcfs -l
 cp -a /etc/corosync /etc/corosync.bak
@@ -99,6 +98,8 @@ systemctl start pve-cluster
 </ol>
 <h3>配置文件处理</h3>
 <p>在移除节点后，其配置文件仍然会保留在<code class="notranslate">/etc/pve/nodes/hp4</code>目录中。请恢复您仍然需要的任何配置，并在之后删除该目录。</p>
+<pre class="notranslate"><code class="notranslate">rm -rf /etc/pve/nodes/*
+</code></pre>
 <h3>SSH指纹更新</h3>
 <p><strong>注意</strong>：在移除节点后，其SSH指纹仍然会存在于其他节点的<code class="notranslate">known_hosts</code>文件中。如果在用相同的IP或主机名重新加入节点后遇到了SSH错误，请在重新加入的节点上执行一次<code class="notranslate">pvecm updatecerts</code>命令，以在集群范围内更新其指纹。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
