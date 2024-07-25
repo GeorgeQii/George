@@ -10,35 +10,15 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="只需要运行以下命令就可以把集群解了
-不会删除虚拟机
-1.  **运行**
-  systemctl stop pve-cluster corosync
-  pmxcfs -l
-  cp -a /etc/corosync /etc/corosync.bak
-  rm /etc/corosync/*
-  rm /etc/pve/corosync.conf
-  killall pmxcfs
-  systemctl start pve-cluster
-其中/etc/corosync.bak是备份，如果要组回来可以直接用回他（重走流程要清空子机），再启动corosync服务即可
-
-这时候可以各自用各自的root用户在管理控制台登录
-会发现有一些问号的虚拟机，和已经解除集群的机器，那现在就可以放心的删除了，因为已经断开连接了，不会把子机的虚拟机删掉。">
+<meta name="description" content="
+    # 解除 Proxmox 集群（不会删除虚拟机）
+    
+    运行以下命令来解除 Proxmox 集群，此操作不会删除任何虚拟机。">
 <meta property="og:title" content="PVE(Proxmox VE)解除集群">
-<meta property="og:description" content="只需要运行以下命令就可以把集群解了
-不会删除虚拟机
-1.  **运行**
-  systemctl stop pve-cluster corosync
-  pmxcfs -l
-  cp -a /etc/corosync /etc/corosync.bak
-  rm /etc/corosync/*
-  rm /etc/pve/corosync.conf
-  killall pmxcfs
-  systemctl start pve-cluster
-其中/etc/corosync.bak是备份，如果要组回来可以直接用回他（重走流程要清空子机），再启动corosync服务即可
-
-这时候可以各自用各自的root用户在管理控制台登录
-会发现有一些问号的虚拟机，和已经解除集群的机器，那现在就可以放心的删除了，因为已经断开连接了，不会把子机的虚拟机删掉。">
+<meta property="og:description" content="
+    # 解除 Proxmox 集群（不会删除虚拟机）
+    
+    运行以下命令来解除 Proxmox 集群，此操作不会删除任何虚拟机。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://GeorgeQii.github.io/post/PVE%28Proxmox%20VE%29-jie-chu-ji-qun.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -98,21 +78,24 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>只需要运行以下命令就可以把集群解了<br>
-不会删除虚拟机</p>
-<ol>
-<li><strong>运行</strong><br>
-systemctl stop pve-cluster corosync<br>
-pmxcfs -l<br>
-cp -a /etc/corosync /etc/corosync.bak<br>
-rm /etc/corosync/*<br>
-rm /etc/pve/corosync.conf<br>
-killall pmxcfs<br>
-systemctl start pve-cluster<br>
-其中/etc/corosync.bak是备份，如果要组回来可以直接用回他（重走流程要清空子机），再启动corosync服务即可</li>
-</ol>
-<p>这时候可以各自用各自的root用户在管理控制台登录<br>
-会发现有一些问号的虚拟机，和已经解除集群的机器，那现在就可以放心的删除了，因为已经断开连接了，不会把子机的虚拟机删掉</p></div>
+<div class="markdown-body" id="postBody"><pre class="notranslate"><code class="notranslate"># 解除 Proxmox 集群（不会删除虚拟机）
+
+运行以下命令来解除 Proxmox 集群，此操作不会删除任何虚拟机。
+
+```bash
+systemctl stop pve-cluster corosync
+pmxcfs -l
+cp -a /etc/corosync /etc/corosync.bak
+rm /etc/corosync/*
+rm /etc/pve/corosync.conf
+killall pmxcfs
+systemctl start pve-cluster
+</code></pre>
+<p>其中 <code class="notranslate">/etc/corosync.bak</code> 是对原始 <code class="notranslate">/etc/corosync</code> 目录的备份，如果需要重新组建集群，可以直接使用备份文件（需要先清空子机的相关配置），然后重新启动 corosync 服务。</p>
+<p>此时，可以分别使用各自的 root 用户在管理控制台登录。</p>
+<p>您会发现有一些显示问号的虚拟机和已经解除集群的机器，现在可以放心地删除它们，因为集群连接已经被断开，不会影响到子机上的虚拟机。</p>
+<pre class="notranslate"><code class="notranslate">请注意，这些操作涉及到集群配置的修改，请在执行前确保已经充分了解每一步的作用，并在非生产环境中先进行测试。
+</code></pre></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
