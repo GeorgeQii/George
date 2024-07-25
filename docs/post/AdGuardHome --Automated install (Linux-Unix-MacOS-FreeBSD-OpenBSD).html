@@ -10,43 +10,143 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="[Getting Started](https://github.com/AdguardTeam/AdGuardHome#getting-started)
-[Automated install (Linux/Unix/MacOS/FreeBSD/OpenBSD)](https://github.com/AdguardTeam/AdGuardHome#automated-install-linux-and-mac)
-To install with curl run the following command:
+<meta name="description" content="以下是将您提供的内容转换为Markdown格式的结果：
 
-curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
-To install with wget run the following command:
+    # Getting Started
+    
+    ## Automated install (Linux/Unix/MacOS/FreeBSD/OpenBSD)
+    
+    ### To install with curl run the following command:
+    
+    ```bash
+    curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+    
 
-wget --no-verbose -O - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
-To install with fetch run the following command:
+### To install with wget run the following command:
 
-fetch -o - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+    wget --no-verbose -O - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+    
+
+### To install with fetch run the following command:
+
+    fetch -o - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+    
+
 The script also accepts some options:
+-------------------------------------
 
--c <channel> to use specified channel;
--r to reinstall AdGuard Home;
--u to uninstall AdGuard Home;
--v for verbose output.
-Note that options -r and -u are mutually exclusive.。">
+*   `-c` to use specified channel;
+*   `-r` to reinstall AdGuard Home;
+*   `-u` to uninstall AdGuard Home;
+*   `-v` for verbose output.
+
+**Note:** Options `-r` and `-u` are mutually exclusive.
+
+DNS Servers
+-----------
+
+*   `tls://1dot1dot1dot1.cloudflare-dns.com`
+*   `tls://1.1.1.1`
+*   `https://cloudflare-dns.com/dns-query`
+*   `https://1.1.1.1/dns-query`
+*   `https://dns.google/dns-query`
+*   `https://dns.google/resolve`
+*   `https://[2001:4860:4860::64]/dns-query`
+*   `https://[2001:4860:4860::6464]/dns-query`
+*   `https://dns-unfiltered.adguard.com/dns-query`
+*   `https://dns.adguard.com/dns-query`
+*   `https://dns-family.adguard.com/dns-query`
+*   `https://223.5.5.5/dns-query`
+*   `https://223.6.6.6/dns-query`
+*   `https://[2400:3200::1]/dns-query`
+*   `https://[2400:3200:baba::1]/dns-query`
+*   `https://dns.quad9.net/dns-query`
+*   `https://dns9.quad9.net/dns-query`
+*   `https://dns10.quad9.net/dns-query`
+*   `https://dns11.quad9.net/dns-query`
+*   `https://doh.opendns.com`
+*   `https://doh.familyshield.opendns.com`
+
+### Additional IP Addresses
+
+*   `223.5.5.5`
+*   `223.6.6.6`
+*   `2400:3200::1`
+*   `2400:3200:baba::1`
+*   `8.8.8.8`
+*   `8.8.4.4`
+*   `2001:4860:4860::8888`
+*   `2001:4860:4860::8844`
+。">
 <meta property="og:title" content="AdGuardHome --Automated install (Linux/Unix/MacOS/FreeBSD/OpenBSD)">
-<meta property="og:description" content="[Getting Started](https://github.com/AdguardTeam/AdGuardHome#getting-started)
-[Automated install (Linux/Unix/MacOS/FreeBSD/OpenBSD)](https://github.com/AdguardTeam/AdGuardHome#automated-install-linux-and-mac)
-To install with curl run the following command:
+<meta property="og:description" content="以下是将您提供的内容转换为Markdown格式的结果：
 
-curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
-To install with wget run the following command:
+    # Getting Started
+    
+    ## Automated install (Linux/Unix/MacOS/FreeBSD/OpenBSD)
+    
+    ### To install with curl run the following command:
+    
+    ```bash
+    curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+    
 
-wget --no-verbose -O - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
-To install with fetch run the following command:
+### To install with wget run the following command:
 
-fetch -o - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+    wget --no-verbose -O - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+    
+
+### To install with fetch run the following command:
+
+    fetch -o - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+    
+
 The script also accepts some options:
+-------------------------------------
 
--c <channel> to use specified channel;
--r to reinstall AdGuard Home;
--u to uninstall AdGuard Home;
--v for verbose output.
-Note that options -r and -u are mutually exclusive.。">
+*   `-c` to use specified channel;
+*   `-r` to reinstall AdGuard Home;
+*   `-u` to uninstall AdGuard Home;
+*   `-v` for verbose output.
+
+**Note:** Options `-r` and `-u` are mutually exclusive.
+
+DNS Servers
+-----------
+
+*   `tls://1dot1dot1dot1.cloudflare-dns.com`
+*   `tls://1.1.1.1`
+*   `https://cloudflare-dns.com/dns-query`
+*   `https://1.1.1.1/dns-query`
+*   `https://dns.google/dns-query`
+*   `https://dns.google/resolve`
+*   `https://[2001:4860:4860::64]/dns-query`
+*   `https://[2001:4860:4860::6464]/dns-query`
+*   `https://dns-unfiltered.adguard.com/dns-query`
+*   `https://dns.adguard.com/dns-query`
+*   `https://dns-family.adguard.com/dns-query`
+*   `https://223.5.5.5/dns-query`
+*   `https://223.6.6.6/dns-query`
+*   `https://[2400:3200::1]/dns-query`
+*   `https://[2400:3200:baba::1]/dns-query`
+*   `https://dns.quad9.net/dns-query`
+*   `https://dns9.quad9.net/dns-query`
+*   `https://dns10.quad9.net/dns-query`
+*   `https://dns11.quad9.net/dns-query`
+*   `https://doh.opendns.com`
+*   `https://doh.familyshield.opendns.com`
+
+### Additional IP Addresses
+
+*   `223.5.5.5`
+*   `223.6.6.6`
+*   `2400:3200::1`
+*   `2400:3200:baba::1`
+*   `8.8.8.8`
+*   `8.8.4.4`
+*   `2001:4860:4860::8888`
+*   `2001:4860:4860::8844`
+。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://GeorgeQii.github.io/post/AdGuardHome%20--Automated%20install%20%28Linux-Unix-MacOS-FreeBSD-OpenBSD%29.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -106,20 +206,65 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p><a href="https://github.com/AdguardTeam/AdGuardHome#getting-started">Getting Started</a><br>
-<a href="https://github.com/AdguardTeam/AdGuardHome#automated-install-linux-and-mac">Automated install (Linux/Unix/MacOS/FreeBSD/OpenBSD)</a><br>
-To install with curl run the following command:</p>
-<p>curl -s -S -L <a href="https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh" rel="nofollow">https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh</a> | sh -s -- -v<br>
-To install with wget run the following command:</p>
-<p>wget --no-verbose -O - <a href="https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh" rel="nofollow">https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh</a> | sh -s -- -v<br>
-To install with fetch run the following command:</p>
-<p>fetch -o - <a href="https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh" rel="nofollow">https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh</a> | sh -s -- -v<br>
-The script also accepts some options:</p>
-<p>-c  to use specified channel;<br>
--r to reinstall AdGuard Home;<br>
--u to uninstall AdGuard Home;<br>
--v for verbose output.<br>
-Note that options -r and -u are mutually exclusive.</p></div>
+<div class="markdown-body" id="postBody"><p>以下是将您提供的内容转换为Markdown格式的结果：</p>
+<pre class="notranslate"><code class="notranslate"># Getting Started
+
+## Automated install (Linux/Unix/MacOS/FreeBSD/OpenBSD)
+
+### To install with curl run the following command:
+
+```bash
+curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+</code></pre>
+<h3>To install with wget run the following command:</h3>
+<pre class="notranslate"><code class="notranslate">wget --no-verbose -O - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+</code></pre>
+<h3>To install with fetch run the following command:</h3>
+<pre class="notranslate"><code class="notranslate">fetch -o - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+</code></pre>
+<h2>The script also accepts some options:</h2>
+<ul>
+<li><code class="notranslate">-c</code> to use specified channel;</li>
+<li><code class="notranslate">-r</code> to reinstall AdGuard Home;</li>
+<li><code class="notranslate">-u</code> to uninstall AdGuard Home;</li>
+<li><code class="notranslate">-v</code> for verbose output.</li>
+</ul>
+<p><strong>Note:</strong> Options <code class="notranslate">-r</code> and <code class="notranslate">-u</code> are mutually exclusive.</p>
+<h2>DNS Servers</h2>
+<ul>
+<li><code class="notranslate">tls://1dot1dot1dot1.cloudflare-dns.com</code></li>
+<li><code class="notranslate">tls://1.1.1.1</code></li>
+<li><code class="notranslate">https://cloudflare-dns.com/dns-query</code></li>
+<li><code class="notranslate">https://1.1.1.1/dns-query</code></li>
+<li><code class="notranslate">https://dns.google/dns-query</code></li>
+<li><code class="notranslate">https://dns.google/resolve</code></li>
+<li><code class="notranslate">https://[2001:4860:4860::64]/dns-query</code></li>
+<li><code class="notranslate">https://[2001:4860:4860::6464]/dns-query</code></li>
+<li><code class="notranslate">https://dns-unfiltered.adguard.com/dns-query</code></li>
+<li><code class="notranslate">https://dns.adguard.com/dns-query</code></li>
+<li><code class="notranslate">https://dns-family.adguard.com/dns-query</code></li>
+<li><code class="notranslate">https://223.5.5.5/dns-query</code></li>
+<li><code class="notranslate">https://223.6.6.6/dns-query</code></li>
+<li><code class="notranslate">https://[2400:3200::1]/dns-query</code></li>
+<li><code class="notranslate">https://[2400:3200:baba::1]/dns-query</code></li>
+<li><code class="notranslate">https://dns.quad9.net/dns-query</code></li>
+<li><code class="notranslate">https://dns9.quad9.net/dns-query</code></li>
+<li><code class="notranslate">https://dns10.quad9.net/dns-query</code></li>
+<li><code class="notranslate">https://dns11.quad9.net/dns-query</code></li>
+<li><code class="notranslate">https://doh.opendns.com</code></li>
+<li><code class="notranslate">https://doh.familyshield.opendns.com</code></li>
+</ul>
+<h3>Additional IP Addresses</h3>
+<ul>
+<li><code class="notranslate">223.5.5.5</code></li>
+<li><code class="notranslate">223.6.6.6</code></li>
+<li><code class="notranslate">2400:3200::1</code></li>
+<li><code class="notranslate">2400:3200:baba::1</code></li>
+<li><code class="notranslate">8.8.8.8</code></li>
+<li><code class="notranslate">8.8.4.4</code></li>
+<li><code class="notranslate">2001:4860:4860::8888</code></li>
+<li><code class="notranslate">2001:4860:4860::8844</code></li>
+</ul></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -178,11 +323,7 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-cmButton=document.getElementById("cmButton");
-    span=document.createElement("span");
-    span.setAttribute("class","Counter");
-    span.innerHTML="2";
-    cmButton.appendChild(span);
+
 
 
 function openComments(){
