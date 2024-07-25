@@ -1,21 +1,68 @@
-首先在刻录好的u盘上提取“boot.wim”，复制到本地文件夹里。然后在同一个文件夹下，创建“mount”文件夹；并放置所需的drivers文件夹（带inf文件）。运行：
-### 1\.挂载wim文件到mount文件夹：
+WIM文件处理步骤
+=========
+
+步骤 1：提取并复制“boot.wim”
+--------------------
+
+首先，从刻录好的U盘中提取“boot.wim”文件，并将其复制到本地的一个文件夹中。
+
+步骤 2：创建挂载目录并放置驱动文件
+------------------
+
+在同一文件夹下，创建一个名为“mount”的文件夹，并将所需的包含`.inf`文件的`drivers`文件夹放置在此文件夹中。
+
+步骤 3：挂载WIM文件
+------------
+
+运行以下命令将WIM文件挂载到“mount”文件夹：
+
     dism /mount-wim /wimfile:boot.wim /index:1 /mountdir:mount
-部署映像服务和管理工具
-版本: 10.0.17763.5830
+    
 
-正在安装映像
-[==========================100.0%==========================]
-操作成功完成。（**挂载成功**）
+输出示例：
 
-###2\.加载驱动文件到mount文件夹：
+    部署映像服务和管理工具
+    版本: 10.0.17763.5830
+    
+    正在安装映像
+    [==========================100.0%==========================]
+    操作成功完成。（挂载成功）
+    
+
+### 步骤 4：加载驱动文件
+
+接下来，使用以下命令将驱动文件加载到挂载的文件夹中：
+
     dism /image:mount /add-driver:"Display.Driver" /recurse
-Installing 48 of 48 - C:\Users\PC\Desktop\wim\Display.Driver\nvxisi.inf: The driver package was successfully installed.
-操作成功完成。（**加载驱动成功**）
+    
 
-###3\.卸载mount文件到wim文件中：
-    dism /unmount-wim /mountdir:mount /commit```
+输出示例：
 
-###4\.复制回u盘，结束
+    Installing 48 of 48 - C:\\Users\\PC\\Desktop\\wim\\Display.Driver\\nvxisi.inf: The driver package was successfully installed.
+    操作成功完成。（加载驱动成功）
+    
 
+### 步骤 5：卸载挂载的文件
 
+使用以下命令将挂载的文件夹卸载并提交更改到WIM文件中：
+
+    dism /unmount-wim /mountdir:mount /commit
+    
+
+输出示例：
+
+    部署映像服务和管理工具
+    版本: 10.0.17763.5830
+    
+    映像文件 : C:\\Users\\PC\\Desktop\\wim\\boot.wim
+    映像索引 : 1
+    正在保存映像
+    [==========================100.0%==========================]
+    正在卸载映像
+    [==========================100.0%==========================]
+    操作成功完成。
+    
+
+### 步骤 6：复制回U盘
+
+最后，将修改后的WIM文件复制回U盘，完成所有操作。
