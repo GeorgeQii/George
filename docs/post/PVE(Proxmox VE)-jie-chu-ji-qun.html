@@ -10,13 +10,11 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="
-    # 解除 Proxmox 集群（不会删除虚拟机）
+<meta name="description" content="    # 解除 Proxmox 集群（不会删除虚拟机）
     
     运行以下命令来解除 Proxmox 集群，此操作不会删除任何虚拟机。">
 <meta property="og:title" content="PVE(Proxmox VE)解除集群">
-<meta property="og:description" content="
-    # 解除 Proxmox 集群（不会删除虚拟机）
+<meta property="og:description" content="    # 解除 Proxmox 集群（不会删除虚拟机）
     
     运行以下命令来解除 Proxmox 集群，此操作不会删除任何虚拟机。">
 <meta property="og:type" content="article">
@@ -94,8 +92,15 @@ systemctl start pve-cluster
 <p>其中 <code class="notranslate">/etc/corosync.bak</code> 是对原始 <code class="notranslate">/etc/corosync</code> 目录的备份，如果需要重新组建集群，可以直接使用备份文件（需要先清空子机的相关配置），然后重新启动 corosync 服务。</p>
 <p>此时，可以分别使用各自的 root 用户在管理控制台登录。</p>
 <p>您会发现有一些显示问号的虚拟机和已经解除集群的机器，现在可以放心地删除它们，因为集群连接已经被断开，不会影响到子机上的虚拟机。</p>
-<pre class="notranslate"><code class="notranslate">请注意，这些操作涉及到集群配置的修改，请在执行前确保已经充分了解每一步的作用，并在非生产环境中先进行测试。
-</code></pre></div>
+<h3>重新加入集群步骤</h3>
+<ol>
+<li><strong>全新安装Proxmox VE</strong>：在目标服务器上进行Proxmox VE的全新安装。</li>
+<li><strong>加入集群</strong>：按照前一节中的说明，将服务器重新加入集群。</li>
+</ol>
+<h3>配置文件处理</h3>
+<p>在移除节点后，其配置文件仍然会保留在<code class="notranslate">/etc/pve/nodes/hp4</code>目录中。请恢复您仍然需要的任何配置，并在之后删除该目录。</p>
+<h3>SSH指纹更新</h3>
+<p><strong>注意</strong>：在移除节点后，其SSH指纹仍然会存在于其他节点的<code class="notranslate">known_hosts</code>文件中。如果在用相同的IP或主机名重新加入节点后遇到了SSH错误，请在重新加入的节点上执行一次<code class="notranslate">pvecm updatecerts</code>命令，以在集群范围内更新其指纹。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
