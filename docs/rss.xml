@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Wed, 24 Jul 2024 05:13:27 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>PVE(Proxmox VE)解除集群</title><link>https://GeorgeQii.github.io/post/PVE%28Proxmox%20VE%29-jie-chu-ji-qun.html</link><description>只需要运行以下命令就可以把集群解了&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Thu, 25 Jul 2024 04:36:03 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>PVE迁移失败（-bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)）</title><link>https://GeorgeQii.github.io/post/PVE-qian-yi-shi-bai-%EF%BC%88-bash-%20warning-%20setlocale-%20LC_ALL-%20cannot%20change%20locale%20%28en_US.UTF-8%29%EF%BC%89.html</link><description>迁移命令：&#13;
+                ssh -o 'HostKeyAlias=&lt;Target node Name&gt;' root@&lt;Target node IP&gt;&#13;
+迁移示例：&#13;
+                ssh -o 'HostKeyAlias=pve3' root@10.99.108.208&#13;
+&#13;
+&#13;
+根据你提供的输出信息，系统在设置语言环境时仍然存在问题。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/PVE-qian-yi-shi-bai-%EF%BC%88-bash-%20warning-%20setlocale-%20LC_ALL-%20cannot%20change%20locale%20%28en_US.UTF-8%29%EF%BC%89.html</guid><pubDate>Thu, 25 Jul 2024 04:35:40 +0000</pubDate></item><item><title>PVE(Proxmox VE)解除集群</title><link>https://GeorgeQii.github.io/post/PVE%28Proxmox%20VE%29-jie-chu-ji-qun.html</link><description>只需要运行以下命令就可以把集群解了&#13;
 不会删除虚拟机&#13;
 1.  **运行**&#13;
   systemctl stop pve-cluster corosync&#13;
