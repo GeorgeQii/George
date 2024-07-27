@@ -10,25 +10,63 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="1.office 软件部署工具：https://www.microsoft.com/en-us/download/details.aspx?id=49117
-2.office 版本自定义工具：https://config.office.com/deploymentsettings
+<meta name="description" content="**Office 软件部署相关**
 
-下载命令：setup /download config.xml
-安装命令：setup /configure config.xml
+1.  Office 软件部署工具：[https://www.microsoft.com/en-us/download/details.aspx?id=49117](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
+    
+    *   下载完，创建文件夹后，软件自动创建 `setup.exe`
+2.  Office 版本自定义工具：[https://config.office.com/deploymentsettings](https://config.office.com/deploymentsettings)
+    
+    *   把下载好的文件放入上一步创建好的文件夹
+3.  打开 `powershell`，`cd` 命令导航到创建好的文件夹
+    
+    *   下载命令：
+        
+            setup /download config.xml
+            示例： PS G:\\office>.\\setup.exe /download config.xml
+            
+        
+    *   安装命令：
+        
+            setup /configure config.xml
+            示例： PS G:\\office>.\\setup.exe /configure config.xml
+            
+        
 
-如果没有激活成功，所须输入的代码
-1.slmgr /skms kms.03k.org
-2.slmgr /ato。">
+**如果没有激活成功，所需输入的代码**
+
+1.  `slmgr /skms kms.03k.org`
+    
+2.  `slmgr /ato`。">
 <meta property="og:title" content="Office获取最新VL版本">
-<meta property="og:description" content="1.office 软件部署工具：https://www.microsoft.com/en-us/download/details.aspx?id=49117
-2.office 版本自定义工具：https://config.office.com/deploymentsettings
+<meta property="og:description" content="**Office 软件部署相关**
 
-下载命令：setup /download config.xml
-安装命令：setup /configure config.xml
+1.  Office 软件部署工具：[https://www.microsoft.com/en-us/download/details.aspx?id=49117](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
+    
+    *   下载完，创建文件夹后，软件自动创建 `setup.exe`
+2.  Office 版本自定义工具：[https://config.office.com/deploymentsettings](https://config.office.com/deploymentsettings)
+    
+    *   把下载好的文件放入上一步创建好的文件夹
+3.  打开 `powershell`，`cd` 命令导航到创建好的文件夹
+    
+    *   下载命令：
+        
+            setup /download config.xml
+            示例： PS G:\\office>.\\setup.exe /download config.xml
+            
+        
+    *   安装命令：
+        
+            setup /configure config.xml
+            示例： PS G:\\office>.\\setup.exe /configure config.xml
+            
+        
 
-如果没有激活成功，所须输入的代码
-1.slmgr /skms kms.03k.org
-2.slmgr /ato。">
+**如果没有激活成功，所需输入的代码**
+
+1.  `slmgr /skms kms.03k.org`
+    
+2.  `slmgr /ato`。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://GeorgeQii.github.io/post/Office-huo-qu-zui-xin-VL-ban-ben.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -88,13 +126,47 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>1.office 软件部署工具：<a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117" rel="nofollow">https://www.microsoft.com/en-us/download/details.aspx?id=49117</a><br>
-2.office 版本自定义工具：<a href="https://config.office.com/deploymentsettings" rel="nofollow">https://config.office.com/deploymentsettings</a></p>
-<p>下载命令：setup /download config.xml<br>
-安装命令：setup /configure config.xml</p>
-<p>如果没有激活成功，所须输入的代码<br>
-1.slmgr /skms kms.03k.org<br>
-2.slmgr /ato</p></div>
+<div class="markdown-body" id="postBody"><p><strong>Office 软件部署相关</strong></p>
+<ol>
+<li>
+<p>Office 软件部署工具：<a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117" rel="nofollow">https://www.microsoft.com/en-us/download/details.aspx?id=49117</a></p>
+<ul>
+<li>下载完，创建文件夹后，软件自动创建 <code class="notranslate">setup.exe</code></li>
+</ul>
+</li>
+<li>
+<p>Office 版本自定义工具：<a href="https://config.office.com/deploymentsettings" rel="nofollow">https://config.office.com/deploymentsettings</a></p>
+<ul>
+<li>把下载好的文件放入上一步创建好的文件夹</li>
+</ul>
+</li>
+<li>
+<p>打开 <code class="notranslate">powershell</code>，<code class="notranslate">cd</code> 命令导航到创建好的文件夹</p>
+<ul>
+<li>
+<p>下载命令：</p>
+<pre class="notranslate"><code class="notranslate">setup /download config.xml
+示例： PS G:\\office&gt;.\\setup.exe /download config.xml
+</code></pre>
+</li>
+<li>
+<p>安装命令：</p>
+<pre class="notranslate"><code class="notranslate">setup /configure config.xml
+示例： PS G:\\office&gt;.\\setup.exe /configure config.xml
+</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>如果没有激活成功，所需输入的代码</strong></p>
+<ol>
+<li>
+<p><code class="notranslate">slmgr /skms kms.03k.org</code></p>
+</li>
+<li>
+<p><code class="notranslate">slmgr /ato</code></p>
+</li>
+</ol></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
