@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Sun, 28 Jul 2024 14:10:29 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>在 Ubuntu 上安装和使用 Wine，轻松运行 Windows 应用程序</title><link>https://GeorgeQii.github.io/post/zai-%20Ubuntu%20-shang-an-zhuang-he-shi-yong-%20Wine%EF%BC%8C-qing-song-yun-xing-%20Windows%20-ying-yong-cheng-xu.html</link><description>### 在 Ubuntu 上安装和使用 Wine，轻松运行 Windows 应用程序&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Mon, 29 Jul 2024 06:34:37 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>Windows11安装跳过CPU检测</title><link>https://GeorgeQii.github.io/post/Windows11-an-zhuang-tiao-guo-CPU-jian-ce.html</link><description>### Windows11安装跳过CPU检测&#13;
+&#13;
+#### 更新日期：2024-07-029&#13;
+&#13;
+#### 分类：Windows&#13;
+&#13;
+Windows 11 会检测电脑CPU/TPM 以及其他设备是否存在与兼容，而Windows 10 的安全更新又即将停止。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/Windows11-an-zhuang-tiao-guo-CPU-jian-ce.html</guid><pubDate>Mon, 29 Jul 2024 06:34:11 +0000</pubDate></item><item><title>在 Ubuntu 上安装和使用 Wine，轻松运行 Windows 应用程序</title><link>https://GeorgeQii.github.io/post/zai-%20Ubuntu%20-shang-an-zhuang-he-shi-yong-%20Wine%EF%BC%8C-qing-song-yun-xing-%20Windows%20-ying-yong-cheng-xu.html</link><description>### 在 Ubuntu 上安装和使用 Wine，轻松运行 Windows 应用程序&#13;
 &#13;
 #### 更新日期：2024-07-028&#13;
 &#13;
