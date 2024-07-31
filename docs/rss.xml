@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Mon, 29 Jul 2024 06:34:37 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>Windows11安装跳过CPU检测</title><link>https://GeorgeQii.github.io/post/Windows11-an-zhuang-tiao-guo-CPU-jian-ce.html</link><description>### Windows11安装跳过CPU检测&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Wed, 31 Jul 2024 10:42:05 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>Windows11安装跳过CPU检测</title><link>https://GeorgeQii.github.io/post/Windows11-an-zhuang-tiao-guo-CPU-jian-ce.html</link><description>### Windows11安装跳过CPU检测&#13;
 &#13;
 #### 更新日期：2024-07-029&#13;
 &#13;
@@ -188,4 +188,6 @@ DNS Servers&#13;
 &#13;
 1.  `slmgr /skms kms.03k.org`&#13;
     &#13;
-2.  `slmgr /ato`。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/Office-huo-qu-zui-xin-VL-ban-ben.html</guid><pubDate>Wed, 03 Jul 2024 06:11:16 +0000</pubDate></item></channel></rss>
+2.  `slmgr /ato`&#13;
+&#13;
+3.  `slmgr -ipk NPPR9-FWDCX-D2C8J-H872K-2YT43`。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/Office-huo-qu-zui-xin-VL-ban-ben.html</guid><pubDate>Wed, 03 Jul 2024 06:11:16 +0000</pubDate></item></channel></rss>
