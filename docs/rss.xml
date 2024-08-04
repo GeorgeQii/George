@@ -1,5 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Wed, 31 Jul 2024 16:22:58 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>Windows11安装跳过CPU检测</title><link>https://GeorgeQii.github.io/post/Windows11-an-zhuang-tiao-guo-CPU-jian-ce.html</link><description>### Windows11安装跳过CPU检测&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Sun, 04 Aug 2024 14:00:47 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>在 Windows 10 上安装 Hyper-V</title><link>https://GeorgeQii.github.io/post/zai-%20Windows%2010%20-shang-an-zhuang-%20Hyper-V.html</link><description>以下是将提供的信息转换为Markdown格式：&#13;
+&#13;
+### 在 Windows 10 上安装 Hyper-V&#13;
+&#13;
+#### 检查要求&#13;
+&#13;
+*   **操作系统**：Windows 10 企业版、专业版或教育版&#13;
+*   **硬件**：&#13;
+    *   64 位处理器，支持二级地址转换 (SLAT)&#13;
+    *   支持 VM 监视器模式扩展（Intel CPU 的 VT-c 技术）&#13;
+    *   最少 4 GB 内存&#13;
+*   **注意事项**：不支持在 Windows 10 家庭版上安装 Hyper-V 角色。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/zai-%20Windows%2010%20-shang-an-zhuang-%20Hyper-V.html</guid><pubDate>Sun, 04 Aug 2024 14:00:22 +0000</pubDate></item><item><title>Windows11安装跳过CPU检测</title><link>https://GeorgeQii.github.io/post/Windows11-an-zhuang-tiao-guo-CPU-jian-ce.html</link><description>### Windows11安装跳过CPU检测&#13;
 &#13;
 #### 更新日期：2024-07-029&#13;
 &#13;
