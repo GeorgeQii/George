@@ -23,7 +23,7 @@
 
 **如果没有激活成功，所需输入的代码**
 
-1.  `slmgr /skms kms.03k.org`
+1.  `slmgr /skms *******
     
 2.  `slmgr /ato`
 
