@@ -40,6 +40,8 @@
 5.  **可选：安装 Nextcloud**
     
         docker run -d -p 8080:80 nextcloud
+        apt update && apt install snapd -y
+        snap install nextcloud
         
     
 6.  **安装 Jumpserver**
