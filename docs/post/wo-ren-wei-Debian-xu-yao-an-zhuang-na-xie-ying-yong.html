@@ -25,26 +25,28 @@
         
     
 3.  **百度网盘下载 Docker 镜像**
+        
         mkdir baidunetdiskconfig
         mkdir downloads  
         docker create \
-            --name=baidunetdisk \
-            -p 5800:5800 \
-            -p 5900:5900 \
-            -v /baidunetdiskconfig:/config \
-            -v /downloads:/config/baidunetdiskdownload \
-            --restart unless-stopped \
-            johngong/baidunetdisk:latest
+        --name=baidunetdisk \
+        -p 5800:5800 \
+        -p 5900:5900 \
+        -v /baidunetdiskconfig:/config \
+        -v /downloads:/config/baidunetdiskdownload \
+        --restart unless-stopped \
+        johngong/baidunetdisk:latest
         
     
 4.  **迅雷下载 Docker 镜像**
+       
         mkdir xunleiconfig    
         docker run -d \
-            -v /xunleiconfig:/xunlei/data \
-            -v /downloads:/xunlei/downloads \
-            -p 2345:2345 \
-            --privileged \
-            cnk3x/xunlei
+        -v /xunleiconfig:/xunlei/data \
+        -v /downloads:/xunlei/downloads \
+        -p 2345:2345 \
+        --privileged \
+        cnk3x/xunlei
         
     
 5.  **可选：安装 Nextcloud**
@@ -71,26 +73,28 @@
         
     
 3.  **百度网盘下载 Docker 镜像**
+        
         mkdir baidunetdiskconfig
         mkdir downloads  
         docker create \
-            --name=baidunetdisk \
-            -p 5800:5800 \
-            -p 5900:5900 \
-            -v /baidunetdiskconfig:/config \
-            -v /downloads:/config/baidunetdiskdownload \
-            --restart unless-stopped \
-            johngong/baidunetdisk:latest
+        --name=baidunetdisk \
+        -p 5800:5800 \
+        -p 5900:5900 \
+        -v /baidunetdiskconfig:/config \
+        -v /downloads:/config/baidunetdiskdownload \
+        --restart unless-stopped \
+        johngong/baidunetdisk:latest
         
     
 4.  **迅雷下载 Docker 镜像**
+       
         mkdir xunleiconfig    
         docker run -d \
-            -v /xunleiconfig:/xunlei/data \
-            -v /downloads:/xunlei/downloads \
-            -p 2345:2345 \
-            --privileged \
-            cnk3x/xunlei
+        -v /xunleiconfig:/xunlei/data \
+        -v /downloads:/xunlei/downloads \
+        -p 2345:2345 \
+        --privileged \
+        cnk3x/xunlei
         
     
 5.  **可选：安装 Nextcloud**
@@ -186,27 +190,29 @@ sudo sh get-docker.sh
 </code></pre>
 </li>
 <li>
-<p><strong>百度网盘下载 Docker 镜像</strong><br>
-mkdir baidunetdiskconfig<br>
-mkdir downloads<br>
-docker create <br>
---name=baidunetdisk <br>
--p 5800:5800 <br>
--p 5900:5900 <br>
--v /baidunetdiskconfig:/config <br>
--v /downloads:/config/baidunetdiskdownload <br>
---restart unless-stopped <br>
-johngong/baidunetdisk:latest</p>
+<p><strong>百度网盘下载 Docker 镜像</strong></p>
+<pre class="notranslate"><code class="notranslate">mkdir baidunetdiskconfig
+mkdir downloads  
+docker create \
+--name=baidunetdisk \
+-p 5800:5800 \
+-p 5900:5900 \
+-v /baidunetdiskconfig:/config \
+-v /downloads:/config/baidunetdiskdownload \
+--restart unless-stopped \
+johngong/baidunetdisk:latest
+</code></pre>
 </li>
 <li>
-<p><strong>迅雷下载 Docker 镜像</strong><br>
-mkdir xunleiconfig<br>
-docker run -d <br>
--v /xunleiconfig:/xunlei/data <br>
--v /downloads:/xunlei/downloads <br>
--p 2345:2345 <br>
---privileged <br>
-cnk3x/xunlei</p>
+<p><strong>迅雷下载 Docker 镜像</strong></p>
+<pre class="notranslate"><code class="notranslate">mkdir xunleiconfig    
+docker run -d \
+-v /xunleiconfig:/xunlei/data \
+-v /downloads:/xunlei/downloads \
+-p 2345:2345 \
+--privileged \
+cnk3x/xunlei
+</code></pre>
 </li>
 <li>
 <p><strong>可选：安装 Nextcloud</strong></p>
