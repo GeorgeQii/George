@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Tue, 17 Sep 2024 01:11:06 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>我认为Debian需要安装哪些应用</title><link>https://GeorgeQii.github.io/post/wo-ren-wei-Debian-xu-yao-an-zhuang-na-xie-ying-yong.html</link><description>    ### 安装步骤&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Tue, 08 Oct 2024 03:55:32 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>DISM修复系统--basic</title><link>https://GeorgeQii.github.io/post/DISM-xiu-fu-xi-tong---basic.html</link><description>DISM /Online /Cleanup-Image /ScanHealth&#13;
+&#13;
+DISM /Online /Cleanup-Image /CheckHealth&#13;
+&#13;
+DISM /Online /Cleanup-Image /RestoreHealth&#13;
+&#13;
+SFC /Scannow。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/DISM-xiu-fu-xi-tong---basic.html</guid><pubDate>Tue, 08 Oct 2024 03:55:04 +0000</pubDate></item><item><title>我认为Debian需要安装哪些应用</title><link>https://GeorgeQii.github.io/post/wo-ren-wei-Debian-xu-yao-an-zhuang-na-xie-ying-yong.html</link><description>    ### 安装步骤&#13;
     &#13;
     1. **加速本地 DNS 访问**&#13;
        apt update&#13;
