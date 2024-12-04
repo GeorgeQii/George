@@ -65,3 +65,13 @@ DNS Servers
 *   `8.8.4.4`
 *   `2001:4860:4860::8888`
 *   `2001:4860:4860::8844`
+
+要设置AdGuard Home在Windows开机自启动，可以采用以下几种方法：
+
+方法一：使用AdGuard Home自带的命令
+AdGuard Home提供了一个命令行参数来实现开机自启动。你只需要在AdGuard Home的安装目录下，以管理员身份打开命令提示符，执行以下命令：
+
+bash
+.\AdGuardHome.exe -s install
+这个命令会将AdGuard Home设置为Windows服务，使其在开机时自动启动
+。

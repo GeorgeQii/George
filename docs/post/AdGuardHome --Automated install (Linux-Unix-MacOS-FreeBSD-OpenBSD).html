@@ -77,7 +77,11 @@ DNS Servers
 *   `8.8.4.4`
 *   `2001:4860:4860::8888`
 *   `2001:4860:4860::8844`
-。">
+
+要设置AdGuard Home在Windows开机自启动，可以采用以下几种方法：
+
+方法一：使用AdGuard Home自带的命令
+AdGuard Home提供了一个命令行参数来实现开机自启动。">
 <meta property="og:title" content="AdGuardHome --Automated install (Linux/Unix/MacOS/FreeBSD/OpenBSD)">
 <meta property="og:description" content="以下是将您提供的内容转换为Markdown格式的结果：
 
@@ -146,7 +150,11 @@ DNS Servers
 *   `8.8.4.4`
 *   `2001:4860:4860::8888`
 *   `2001:4860:4860::8844`
-。">
+
+要设置AdGuard Home在Windows开机自启动，可以采用以下几种方法：
+
+方法一：使用AdGuard Home自带的命令
+AdGuard Home提供了一个命令行参数来实现开机自启动。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://GeorgeQii.github.io/post/AdGuardHome%20--Automated%20install%20%28Linux-Unix-MacOS-FreeBSD-OpenBSD%29.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -275,7 +283,14 @@ curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/s
 <li><code class="notranslate">8.8.4.4</code></li>
 <li><code class="notranslate">2001:4860:4860::8888</code></li>
 <li><code class="notranslate">2001:4860:4860::8844</code></li>
-</ul></div>
+</ul>
+<p>要设置AdGuard Home在Windows开机自启动，可以采用以下几种方法：</p>
+<p>方法一：使用AdGuard Home自带的命令<br>
+AdGuard Home提供了一个命令行参数来实现开机自启动。你只需要在AdGuard Home的安装目录下，以管理员身份打开命令提示符，执行以下命令：</p>
+<p>bash<br>
+.\AdGuardHome.exe -s install<br>
+这个命令会将AdGuard Home设置为Windows服务，使其在开机时自动启动<br>
+。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>

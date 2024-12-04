@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Mon, 25 Nov 2024 07:56:09 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>学校党政公文常用字体下载</title><link>https://GeorgeQii.github.io/post/xue-xiao-dang-zheng-gong-wen-chang-yong-zi-ti-xia-zai.html</link><description>点击下载：[学校党政公文常用字体包.zip](https://office.sdufe.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&amp;owner=1238839771&amp;wbfileid=3650835)&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://GeorgeQii.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://GeorgeQii.github.io</link></image><lastBuildDate>Wed, 04 Dec 2024 02:12:41 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>学校党政公文常用字体下载</title><link>https://GeorgeQii.github.io/post/xue-xiao-dang-zheng-gong-wen-chang-yong-zi-ti-xia-zai.html</link><description>点击下载：[学校党政公文常用字体包.zip](https://office.sdufe.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&amp;owner=1238839771&amp;wbfileid=3650835)&#13;
 &#13;
 &#13;
 &#13;
@@ -182,7 +182,11 @@ DNS Servers&#13;
 *   `8.8.4.4`&#13;
 *   `2001:4860:4860::8888`&#13;
 *   `2001:4860:4860::8844`&#13;
-。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/AdGuardHome%20--Automated%20install%20%28Linux-Unix-MacOS-FreeBSD-OpenBSD%29.html</guid><pubDate>Wed, 03 Jul 2024 07:04:07 +0000</pubDate></item><item><title>Office获取最新VL版本</title><link>https://GeorgeQii.github.io/post/Office-huo-qu-zui-xin-VL-ban-ben.html</link><description>**Office 软件部署相关**&#13;
+&#13;
+要设置AdGuard Home在Windows开机自启动，可以采用以下几种方法：&#13;
+&#13;
+方法一：使用AdGuard Home自带的命令&#13;
+AdGuard Home提供了一个命令行参数来实现开机自启动。</description><guid isPermaLink="true">https://GeorgeQii.github.io/post/AdGuardHome%20--Automated%20install%20%28Linux-Unix-MacOS-FreeBSD-OpenBSD%29.html</guid><pubDate>Wed, 03 Jul 2024 07:04:07 +0000</pubDate></item><item><title>Office获取最新VL版本</title><link>https://GeorgeQii.github.io/post/Office-huo-qu-zui-xin-VL-ban-ben.html</link><description>**Office 软件部署相关**&#13;
 &#13;
 1.  Office 软件部署工具：[https://www.microsoft.com/en-us/download/details.aspx?id=49117](https://www.microsoft.com/en-us/download/details.aspx?id=49117)&#13;
     &#13;
